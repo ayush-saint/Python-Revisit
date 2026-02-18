@@ -4,11 +4,11 @@ print("hello world ")
 ls = [1, 2, 3]
 print(ls[2])
 
-# try except example
+# try except example : The try block tests code; if an error occurs, control jumps to except instead of stopping
 
 try:
-    print("hello world ")   # fixed bracket
-    x = int("abc")          # this will cause ValueError
+    print("hello world ")   
+    x = int("abc")          
 except ValueError:
     print("Error: Give right input / correct the syntax")
 
