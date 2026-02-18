@@ -5,7 +5,7 @@ student={"name":"raju", "age":21, "gender":"male"}
 # these dictionary accept all data types like string , integer , float etc 
 
 # accessing values
-print(student["name"])
+print(student["name"]) 
 
 
 #updating values 
