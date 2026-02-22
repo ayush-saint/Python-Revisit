@@ -29,3 +29,4 @@ print(np.mean(arr3))
 
 #getting random numbers 
 print(np.random.rand(5))
+
