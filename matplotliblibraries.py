@@ -11,4 +11,5 @@ print(plt.scatter(hours, marks))
 #renaming x and y axis 
 plt.xlabel("hours spent")
 plt.ylabel("marks obtained")
+plt.title("students data of marks obtained vs hour spent")
 print(plt.scatter(hours, marks))
