@@ -1,0 +1,16 @@
+L1 = [1, 2, 2, 3, 2, 3, 4, 5]
+
+count_dict = {}
+
+# Count frequency
+for num in L1:
+    if num in count_dict:
+        count_dict[num] += 1
+    else:
+        count_dict[num] = 1
+
+# Find max occurring element
+max_element = max(count_dict, key=count_dict.get)
+
+print("Most repetitive element:", max_element)
+print("Frequency:", count_dict[max_element])
